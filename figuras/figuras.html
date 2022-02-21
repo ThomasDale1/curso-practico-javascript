@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas</title>
+    <link rel="stylesheet" href="./figuras.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Este es el taller del curso práctico de JavaScript</p>
+    </header>
+    <section class="square">
+        <h2>Cuadrado</h2>
+        <form action="">
+            <label for="input-cuadrado">¿Cuánto mide cada lado del cuadrado?</label>
+            <section class="input">
+                <input id="input-cuadrado" type="number">
+                <section class="button">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                </section>
+            </section>
+        </form>
+    </section>
+    <section class="triangle">
+        <h2>Triángulo</h2>
+        <form action="">
+            <section class="input">
+                <section class="measurement">
+                    <label for="input-trianguloA">¿Cuánto mide el lado A del triángulo?</label>
+                    <input id="input-trianguloA" type="number">
+                </section>
+                <section class="measurement">
+                    <label for="input-trianguloB">¿Cuánto mide el lado B del triángulo?</label>
+                    <input id="input-trianguloB" type="number">
+                </section>
+                <section class="measurement">
+                    <label for="input-trianguloBase">¿Cuánto mide la base del triángulo?</label>
+                    <input id="input-trianguloBase" type="number">
+                </section>
+                <section class="measurement">
+                    <label for="input-trianguloAltura">¿Cuánto mide la altura del triángulo?</label>
+                    <input id="input-trianguloAltura" type="number">
+                </section>
+                <section class="button">
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                </section>
+            </section>
+        </form>
+    </section>
+    <section class="height">
+        <h2>Altura de triángulo isósceles</h2>
+        <form action="">
+            <section class="input">
+                <section class="measurement">
+                    <label for="input-heightA">¿Cuánto mide el lado A del triángulo?</label>
+                    <input id="input-heightA" type="number">
+                </section>
+                <section class="measurement">
+                    <label for="input-heightB">¿Cuánto mide el lado B del triángulo?</label>
+                    <input id="input-heightB" type="number">
+                </section>
+                <section class="measurement">
+                    <label for="input-heightBase">¿Cuánto mide la base del triángulo?</label>
+                    <input id="input-heightBase" type="number">
+                </section>
+                <section class="button">
+                    <button type="button" onclick="calcularAlturaTriangulo()">Calcular la altura</button>
+                    
+                </section>
+            </section>
+        </form>
+    </section>
+    <section class="circle">
+        <h2>Círculo</h2>
+        <form action="">
+            <label for="input-circulo">¿Cuánto mide el radio del círculo?</label>
+            <section class="input">
+                <input id="input-circulo" type="number">
+                <section class="button">
+                    <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                    <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+                </section>
+            </section>
+        </form>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+header h1{
+    font-size: 2rem;
+    color: #2e3130;
+}
+header p{
+    font-size: 1.2rem;
+    color: #2e3130;
+}
+.square{
+    background-color: #06e2ab;
+    color: #def0ed;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.square h2{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.square label{
+    font-size: 1rem;
+}
+.square .input input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #33f8c7;
+    border: none;
+    color: #def0ed;
+    font-weight: 900;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    caret-color: #def0ed;
+}
+.square .input .button button{
+    border-radius: 5px;
+    border: 1px solid #9af5e3;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffff;
+    color: #06e2ab;
+    font-weight: 900;
+}
+.triangle{
+    background-color: #bdafda;
+    color: #def0ed;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.triangle h2{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.triangle label{
+    font-size: 1rem;
+}
+.triangle .input input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #c9bfe2;
+    border: none;
+    color: #def0ed;
+    font-weight: 900;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    caret-color: #def0ed;
+}
+.triangle .input .button button{
+    border-radius: 5px;
+    border: 1px solid #e4def1;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffff;
+    color: #bdafda;
+    font-weight: 900;
+}
+.height{
+    background-color: #e4a0a0;
+    color: #def0ed;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.height h2{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.height label{
+    font-size: 1rem;
+}
+.height .input input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #e2bfbf;
+    border: none;
+    color: #def0ed;
+    font-weight: 900;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    caret-color: #def0ed;
+}
+.height .input .button button{
+    border-radius: 5px;
+    border: 1px solid #f1dede;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffff;
+    color: #e4a0a0;
+    font-weight: 900;
+}
+.circle{
+    background-color: #ffc771;
+    color: #def0ed;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.circle h2{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.circle label{
+    font-size: 1rem;
+}
+.circle .input input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #ffd18f;
+    border: none;
+    color: #def0ed;
+    font-weight: 900;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    caret-color: #def0ed;
+}
+.circle .input .button button{
+    border-radius: 5px;
+    border: 1px solid #f0d0a0;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffff;
+    color: #ffc771;
+    font-weight: 900;
+}

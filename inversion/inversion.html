@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interes Compuesto</title>
+    <link rel="stylesheet" href="./inversion.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Interes Compuesto</h1>
+        <p>Determina que tanto va a crecer tu dinero usando el interes compuesto</p>
+    </header>
+    <section class="container">
+        <form action="">
+            <section class="input">
+                <label for="input-initial">Inversión inicial</label>
+                <input id="input-initial" type="number">
+                <label for="input-time">Duración en años</label>
+                <input id="input-time" type="number">
+                <label for="input-interest">Porcentaje de interes</label>
+                <input id="input-interest" type="number">
+            </section>
+            <section class="button">
+                <button type="button" onclick="calcularAnual()">Calcular con frecuencia anual</button>
+                <button type="button" onclick="calcularSemestral()">Calcular con frecuancia semestral</button>
+                <button type="button" onclick="calcularTrimestral()">Calcular con frecuencia trimestral</button>
+                <button type="button" onclick="calcularBimestral()">Calcular con frecuencia bimestral</button>
+                <button type="button" onclick="calcularMensual()">Calcular con frecuencia mensual</button>
+            </section>
+            <p id="text"></p>
+        </form>
+    </section>
+    <script src="./inversion.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+.container{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(86, 145, 128);
+    padding: 10px;
+    border-radius: 20px;
+    color: #def0ed;
+}
+.container h2{
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.container label{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container input{
+    border-radius: 10px;
+    border: 1px solid rgb(150, 177, 196);
+    color: #def0ed;
+    background-color: rgb(73, 135, 135);
+    padding: 5px;
+}
+#input-credito1, #input-credito2, #input-credito3, #input-credito4, #input-credito5{
+    margin-bottom: 15px;
+}
+.container button{
+    border-radius: 10px;
+    border: 1px solid rgb(150, 177, 196);
+    color: #def0ed;
+    background-color: rgb(73, 135, 135);
+    padding: 5px;
+}
+p{
+    font-size: 1rem;
+    font-weight: 700;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+header h1{
+    font-size: 2rem;
+    color: #2e3130;
+}
+header p{
+    font-size: 1.2rem;
+    color: #2e3130;
+}
+.discount{
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #dcb769;
+    padding: 20px;
+    color: #def0ed;
+}
+.discount h2{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.discount label{
+    font-size: 1rem;
+}
+.discount input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #d8bf8a;
+    border: none;
+    color: #def0ed;
+    font-weight: 900;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    caret-color: #def0ed;
+}
+.discount button{
+    border-radius: 5px;
+    border: 1px solid #e1d9b0;
+    padding: 5px 5px 5px 10px;
+    background-color: #ffff;
+    color: #dcb769;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.discount #text{
+    font-size: 1rem;
+    color: #def0ed;
+    margin-bottom: 10px;
+}
